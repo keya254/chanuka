@@ -28,7 +28,7 @@ class SmsController extends Controller
 
         // Initialize the AfricasTalking SDK
         $username = 'itAirtime'; // Your AfricasTalking username
-        $apiKey = 'atsk_f24b925d824618fccef8be447042e03909448508a67f6bf60953f1c0ce07a71dfef5dbca'; // Your AfricasTalking API key
+        $apiKey = 'yourkeyhere'; // Your AfricasTalking API key
         $AT = new AfricasTalking($username, $apiKey);
 
         // Get the SMS service
